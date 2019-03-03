@@ -1,0 +1,10 @@
+server:
+  port: 9000
+spring:
+  datasource:
+    url: jdbc:derby:bookstore;create=true
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.DerbyTenSevenDialect
